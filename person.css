@@ -1,0 +1,336 @@
+/* ============================================
+   Modern single-page design overrides
+   ============================================ */
+
+/* Reset jemdoc defaults */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #444;
+    line-height: 1.6;
+}
+
+#layout-content {
+    padding: 0 !important;
+    margin: 0;
+    max-width: 100%;
+    border: none;
+}
+
+/* Override jemdoc heading defaults */
+h1, h2, h3 {
+    border-bottom: none;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: none;
+}
+
+img {
+    border: none;
+}
+
+/* ============================================
+   Top Navigation
+   ============================================ */
+.top-nav {
+    background: #2d3436;
+    padding: 14px 40px;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #ccc !important;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    border-bottom: none !important;
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
+.hero-section {
+    background: white;
+    padding: 20px 0 60px;
+}
+
+.section-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 2.2em;
+    color: #333;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: 1.2;
+    border-bottom: none !important;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #555;
+    line-height: 1.75;
+    margin-bottom: 16px;
+    font-size: 0.93em;
+}
+
+.text-link {
+    color: #333 !important;
+    text-decoration: underline;
+}
+
+.text-link:hover {
+    border-bottom: none !important;
+    opacity: 0.7;
+}
+
+.hero-image {
+    flex: 0 0 240px;
+    padding-top: 10px;
+}
+
+.profile-img {
+    width: 240px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.resume-btn {
+    display: inline-block;
+    background: #e8756d;
+    color: white !important;
+    padding: 13px 28px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-size: 0.95em;
+    font-weight: 600;
+    margin-top: 12px;
+    transition: background 0.3s;
+    border: none;
+}
+
+.resume-btn:hover {
+    background: #d4645c;
+    border-bottom: none !important;
+}
+
+/* ============================================
+   Publications Section
+   ============================================ */
+.publications-section {
+    background: #dff0ea;
+    padding: 30px 0 50px;
+}
+
+.section-title {
+    font-size: 1.35em;
+    color: #333;
+    margin-bottom: 15px !important;
+    padding-bottom: 0;
+    border-bottom: none !important;
+    font-weight: 600;
+}
+
+.pub-subtitle {
+    font-size: 1.1em;
+    color: #555;
+    font-weight: 600;
+    margin-top: 10px !important;
+    margin-bottom: 8px !important;
+    border-bottom: none !important;
+}
+
+.pub-list {
+    list-style-type: disc !important;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+.pub-list li {
+    margin-bottom: 12px;
+    color: #444;
+    line-height: 1.6;
+    font-size: 0.93em;
+}
+
+.pub-authors {
+    color: #777;
+    font-style: italic;
+}
+
+/* ============================================
+   Teachings Section
+   ============================================ */
+.teachings-section {
+    background: white;
+    padding: 40px 0 50px;
+}
+
+.teachings-section p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.93em;
+    margin-bottom: 10px;
+}
+
+.course-heading {
+    margin-bottom: 5px !important;
+    margin-top: 18px !important;
+}
+
+.course-list {
+    list-style-type: disc !important;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.course-list li {
+    margin-bottom: 6px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.93em;
+}
+
+.course-list ul {
+    list-style-type: disc !important;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.course-list ul li {
+    font-weight: normal;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.site-footer {
+    padding: 10px 40px 30px;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.linkedin-link {
+    display: inline-block;
+    margin-bottom: 8px;
+    border-bottom: none !important;
+}
+
+.linkedin-link:hover {
+    border-bottom: none !important;
+    opacity: 0.7;
+}
+
+.github-link {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    border-bottom: none !important;
+}
+
+.github-link:hover {
+    border-bottom: none !important;
+    opacity: 0.7;
+}
+
+.copyright {
+    color: #888;
+    font-size: 0.85em;
+    margin: 0;
+}
+
+.footer-text-link {
+    color: #888 !important;
+    text-decoration: underline;
+}
+
+.footer-text-link:hover {
+    color: #555 !important;
+    border-bottom: none !important;
+}
+
+/* ============================================
+   Responsive Design
+   ============================================ */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .hero-image {
+        flex: none;
+    }
+
+    .hero-title {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .pub-card {
+        flex-direction: column;
+    }
+
+    .pub-image {
+        flex: none;
+    }
+
+    .section-inner {
+        padding: 0 20px;
+    }
+
+    .top-nav {
+        padding: 15px 20px;
+    }
+}

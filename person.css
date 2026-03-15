@@ -246,7 +246,7 @@ img {
 .teachings-section {
     background: white;
     scroll-margin-top: 50px;
-    padding: 40px 0 50px;
+    padding: 40px 0 10px;
 }
 
 .teachings-section p {

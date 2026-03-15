@@ -97,7 +97,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var navLinks = document.querySelectorAll('.nav-link[href^="#"]');
-    var sectionIds = ['home', 'publications', 'teachings', 'contact'];
+    var sectionIds = ['home', 'publications', 'teachings'];
 
     function updateActive() {
         var scrollY = window.scrollY || window.pageYOffset;
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // Find the last section whose top has scrolled past the nav bar (60px)
+        // Find the last main section whose top has scrolled past the nav bar
         var current = sectionIds[0];
         for (var i = 0; i < sectionIds.length; i++) {
             var section = document.getElementById(sectionIds[i]);

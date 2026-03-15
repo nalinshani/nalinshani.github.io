@@ -58,7 +58,7 @@
         <ul class="course-list">
             <li>OPNS 430 - <b>Operations Management</b><br /><span class="pub-authors">Spring 2024, Winter 2024, Winter 2025 (Head TA), Spring 2025, Winter 2026 (Head TA)</span></li>
             <li>OPNS 440 - <b>Designing and Managing Business Processes</b><br /><span class="pub-authors">Winter 2025, Winter 2026</span></li>
-            <li>OPNS 454 - <b>Strategic Decisions in Operations</b><br /><span class="pub-authors">Spring 2025, Spring 2026</span></li>
+            <li>OPNSX 454 - <b>Strategic Decisions in Operations</b><br /><span class="pub-authors">Spring 2025, Spring 2026</span></li>
             <li>OPNS 455 - <b>Supply Chain Management</b><br /><span class="pub-authors">Winter 2026</span></li>
         </ul>
 
@@ -86,6 +86,24 @@
         <p class="copyright">Built with <a href="https://github.com/jem/jemdoc" class="footer-text-link" target="_blank">jemdoc</a></p>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var sections = document.querySelectorAll('.hero-section, .publications-section, .teachings-section');
+    var navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                navLinks.forEach(function(link) { link.classList.remove('active'); });
+                var id = entry.target.getAttribute('id');
+                var activeLink = document.querySelector('.nav-link[href="#' + id + '"]');
+                if (activeLink) activeLink.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-50% 0px -50% 0px' });
+    sections.forEach(function(section) { observer.observe(section); });
+});
+</script>
 </div>
 <!-- This script will be injected in the pages of the site to collect visiting info fpr Google analytics.-->
 <!-- Use your GoogleAnalytics ID, update the following code and the MY_ID with yours (used two times.)  -->

@@ -197,6 +197,42 @@ img {
     font-style: italic;
 }
 
+.abstract-toggle {
+    margin-top: 8px;
+}
+
+.abstract-btn {
+    display: inline-block;
+    background: #4a3f6b;
+    color: white !important;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+}
+
+.abstract-btn::-webkit-details-marker {
+    display: none;
+}
+
+.abstract-btn:hover {
+    background: #3a3158;
+    border-bottom: none !important;
+}
+
+.abstract-box {
+    margin-top: 10px;
+    padding: 15px 18px;
+    background: #f9f9f9;
+    border-left: 3px solid #4a3f6b;
+    border-radius: 0 4px 4px 0;
+    color: #444;
+    font-size: 0.88em;
+    line-height: 1.7;
+}
+
 /* ============================================
    Teachings Section
    ============================================ */

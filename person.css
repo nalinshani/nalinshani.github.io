@@ -17,6 +17,7 @@ body {
     margin: 0;
     max-width: 100%;
     border: none;
+    overflow: visible !important;
 }
 
 /* Override jemdoc heading defaults */
@@ -375,8 +376,13 @@ img {
     }
 
     .nav-links {
-        gap: 18px;
-        flex-wrap: wrap;
+        gap: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .nav-link {
+        font-size: 0.78em;
+        white-space: nowrap;
     }
 
     .section-title {

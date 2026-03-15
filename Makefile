@@ -13,6 +13,7 @@ all : $(PHDOCS)
 	cp -f -r ./eqs ./html | true
 	sed -i 's/<head>/<head>\n<meta name="viewport" content="width=device-width, initial-scale=1.0" \/>/' html/index.html
 	sed -i 's/<\/title>/<\/title>\n<meta name="description" content="Personal website and academic portfolio of Nalin Shani, focusing on online review systems, consumer behavior, and platform operations.">/' html/index.html
+	sed -i 's/<head>/<head>\n<meta name="google-site-verification" content="fqiyIsNLJgQebtFdA2DG63fb4hCXNo3s3coM7YSotF0" \/>/' html/index.html
 	@echo "Website building is complete !"
 
 html/%.html : jemdoc/%.jemdoc jemdoc/jemdoc.css

@@ -112,16 +112,13 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // Otherwise find which section is in view
-        // Walk backwards: the first section whose top is above 100px from viewport top wins
+        // Find the last section whose top has scrolled past the nav bar (60px)
         var current = sectionIds[0];
-        for (var i = sectionIds.length - 1; i >= 0; i--) {
+        for (var i = 0; i < sectionIds.length; i++) {
             var section = document.getElementById(sectionIds[i]);
             if (section) {
-                var rect = section.getBoundingClientRect();
-                if (rect.top <= 100) {
+                if (section.getBoundingClientRect().top <= 60) {
                     current = sectionIds[i];
-                    break;
                 }
             }
         }

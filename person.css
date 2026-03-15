@@ -349,17 +349,17 @@ img {
         flex: none;
     }
 
+    .profile-img {
+        width: 180px;
+    }
+
     .hero-title {
-        font-size: 1.8em;
+        font-size: 1.6em;
         text-align: center;
     }
 
-    .pub-card {
-        flex-direction: column;
-    }
-
-    .pub-image {
-        flex: none;
+    .hero-text p {
+        text-align: center;
     }
 
     .section-inner {
@@ -367,6 +367,19 @@ img {
     }
 
     .top-nav {
-        padding: 15px 20px;
+        padding: 12px 15px;
+    }
+
+    .nav-links {
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .section-title {
+        font-size: 1.2em;
+    }
+
+    .abstract-box {
+        font-size: 0.84em;
     }
 }

@@ -299,6 +299,7 @@ img {
    ============================================ */
 .site-footer {
     padding: 10px 40px 30px;
+    scroll-margin-top: 50px;
 }
 
 .footer-line {
@@ -309,6 +310,18 @@ img {
 
 .footer-content {
     text-align: center;
+}
+
+.email-link {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    border-bottom: none !important;
+}
+
+.email-link:hover {
+    border-bottom: none !important;
+    opacity: 0.7;
 }
 
 .linkedin-link {

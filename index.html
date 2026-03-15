@@ -113,13 +113,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Otherwise find which section is in view
-        var current = '';
-        for (var i = 0; i < sectionIds.length; i++) {
+        // Walk backwards: the first section whose top is above 100px from viewport top wins
+        var current = sectionIds[0];
+        for (var i = sectionIds.length - 1; i >= 0; i--) {
             var section = document.getElementById(sectionIds[i]);
             if (section) {
                 var rect = section.getBoundingClientRect();
-                if (rect.top <= windowHeight / 2) {
+                if (rect.top <= 100) {
                     current = sectionIds[i];
+                    break;
                 }
             }
         }

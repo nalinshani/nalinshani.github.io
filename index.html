@@ -94,46 +94,6 @@
     </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    var navLinks = document.querySelectorAll('.nav-link[href^="#"]');
-    var sectionIds = ['home', 'publications', 'teachings'];
-
-    function updateActive() {
-        var scrollY = window.scrollY || window.pageYOffset;
-        var windowHeight = window.innerHeight;
-        var docHeight = document.documentElement.scrollHeight;
-
-        // If at bottom of page, highlight Contact
-        if (scrollY + windowHeight >= docHeight - 30) {
-            navLinks.forEach(function(link) { link.classList.remove('active'); });
-            var contactLink = document.querySelector('.nav-link[href="#contact"]');
-            if (contactLink) contactLink.classList.add('active');
-            return;
-        }
-
-        // Find the last main section whose top has scrolled past the nav bar
-        var current = sectionIds[0];
-        for (var i = 0; i < sectionIds.length; i++) {
-            var section = document.getElementById(sectionIds[i]);
-            if (section) {
-                if (section.getBoundingClientRect().top <= 60) {
-                    current = sectionIds[i];
-                }
-            }
-        }
-
-        navLinks.forEach(function(link) { link.classList.remove('active'); });
-        if (current) {
-            var activeLink = document.querySelector('.nav-link[href="#' + current + '"]');
-            if (activeLink) activeLink.classList.add('active');
-        }
-    }
-
-    window.addEventListener('scroll', updateActive);
-    updateActive();
-});
-</script>
 </div>
 <!-- This script will be injected in the pages of the site to collect visiting info fpr Google analytics.-->
 <!-- Use your GoogleAnalytics ID, update the following code and the MY_ID with yours (used two times.)  -->

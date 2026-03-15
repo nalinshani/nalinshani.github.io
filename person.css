@@ -61,7 +61,7 @@ img {
 }
 
 .nav-link {
-    color: rgba(255,255,255,0.7) !important;
+    color: white !important;
     text-decoration: none;
     font-size: 0.9em;
     font-weight: 400;
@@ -72,11 +72,6 @@ img {
 .nav-link:hover {
     color: white !important;
     border-bottom: none !important;
-}
-
-.nav-link.active {
-    color: white !important;
-    font-weight: 600;
 }
 
 /* ============================================

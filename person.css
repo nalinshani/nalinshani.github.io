@@ -46,7 +46,7 @@ img {
    Top Navigation
    ============================================ */
 .top-nav {
-    background: #7B42D0;
+    background: #4A287E;
     padding: 14px 40px;
     text-align: center;
     position: sticky;
@@ -61,7 +61,7 @@ img {
 }
 
 .nav-link {
-    color: #ccc !important;
+    color: white !important;
     text-decoration: none;
     font-size: 0.9em;
     font-weight: 400;
@@ -208,7 +208,7 @@ img {
 
 .abstract-btn {
     display: inline-block;
-    background: #7B42D0;
+    background: #4A287E;
     color: white !important;
     padding: 6px 16px;
     border-radius: 4px;
@@ -223,7 +223,7 @@ img {
 }
 
 .abstract-btn:hover {
-    background: #6a35b8;
+    background: #3d2069;
     border-bottom: none !important;
 }
 
@@ -231,7 +231,7 @@ img {
     margin-top: 10px;
     padding: 15px 18px;
     background: #f9f9f9;
-    border-left: 3px solid #7B42D0;
+    border-left: 3px solid #4A287E;
     border-radius: 0 4px 4px 0;
     color: #444;
     font-size: 0.88em;

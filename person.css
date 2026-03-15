@@ -312,37 +312,24 @@ img {
     text-align: center;
 }
 
-.email-link {
-    display: inline-block;
-    margin-bottom: 8px;
-    margin-right: 12px;
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-icon-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
     border-bottom: none !important;
 }
 
-.email-link:hover {
-    border-bottom: none !important;
-    opacity: 0.7;
-}
-
-.linkedin-link {
-    display: inline-block;
-    margin-bottom: 8px;
-    border-bottom: none !important;
-}
-
-.linkedin-link:hover {
-    border-bottom: none !important;
-    opacity: 0.7;
-}
-
-.github-link {
-    display: inline-block;
-    margin-bottom: 8px;
-    margin-left: 12px;
-    border-bottom: none !important;
-}
-
-.github-link:hover {
+.footer-icon-link:hover {
     border-bottom: none !important;
     opacity: 0.7;
 }

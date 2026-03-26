@@ -5,7 +5,7 @@
 <div class="top-nav">
     <div class="nav-links">
         <a href="#home" class="nav-link">About Me</a>
-        <a href="#publications" class="nav-link">Publications</a>
+        <a href="#publications" class="nav-link">Research</a>
         <a href="#teachings" class="nav-link">Teaching</a>
         <a href="#contact" class="nav-link">Contact</a>
     </div>
@@ -27,7 +27,7 @@
 
 <div class="publications-section" id="publications">
     <div class="section-inner">
-        <h2 class="section-title">Publications</h2>
+        <h2 class="section-title">Research</h2>
         <h3 class="pub-subtitle">Working Papers</h3>
         <ul class="pub-list">
             <li>When More Experience Is Not More Helpful: Evidence from 26.8M Steam Reviews Comparing Positive and Negative Reviews<br /><span class="pub-authors">with Achal Bassamboo and Maria Ibanez</span>

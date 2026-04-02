@@ -206,12 +206,7 @@ img {
 }
 
 .pub-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 16px;
     margin-top: 8px;
-    flex-wrap: wrap;
 }
 
 .abstract-toggle {
@@ -249,7 +244,7 @@ img {
     font-size: 0.85em;
     font-weight: 600;
     text-decoration: none;
-    vertical-align: middle;
+    margin-top: 10px;
 }
 
 .ssrn-btn:hover {

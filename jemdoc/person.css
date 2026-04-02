@@ -207,6 +207,7 @@ img {
 
 .pub-buttons {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 8px;
     margin-top: 8px;
@@ -215,6 +216,7 @@ img {
 
 .abstract-toggle {
     margin-top: 0;
+    width: auto;
 }
 
 .abstract-btn {

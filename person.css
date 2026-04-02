@@ -209,7 +209,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 8px;
+    gap: 16px;
     margin-top: 8px;
     flex-wrap: wrap;
 }

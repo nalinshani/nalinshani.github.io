@@ -207,6 +207,7 @@ img {
 
 .abstract-toggle {
     margin-top: 8px;
+    display: inline-block;
 }
 
 .abstract-btn {

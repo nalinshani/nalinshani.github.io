@@ -254,12 +254,13 @@ img {
 
 .pub-figure {
     margin-top: 16px;
+    text-align: center;
 }
 
 .pub-fig-img {
     width: 100%;
     max-width: 720px;
-    display: block;
+    display: inline-block;
     border-radius: 4px;
 }
 
@@ -269,6 +270,8 @@ img {
     color: #666;
     max-width: 720px;
     line-height: 1.5;
+    display: inline-block;
+    text-align: left;
 }
 
 .abstract-box {

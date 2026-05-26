@@ -252,6 +252,25 @@ img {
     border-bottom: none !important;
 }
 
+.pub-figure {
+    margin-top: 16px;
+}
+
+.pub-fig-img {
+    width: 100%;
+    max-width: 720px;
+    display: block;
+    border-radius: 4px;
+}
+
+.pub-fig-caption {
+    margin-top: 6px;
+    font-size: 0.82em;
+    color: #666;
+    max-width: 720px;
+    line-height: 1.5;
+}
+
 .abstract-box {
     margin-top: 10px;
     padding: 15px 18px;

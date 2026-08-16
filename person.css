@@ -252,6 +252,26 @@ img {
     border-bottom: none !important;
 }
 
+.insight-btn {
+    display: inline-block;
+    background: white;
+    color: #4A287E !important;
+    border: 1px solid #4A287E;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.insight-btn:hover {
+    background: #4A287E;
+    color: white !important;
+    border-bottom: 1px solid #4A287E !important;
+}
+
 .pub-figure {
     margin-top: 16px;
     text-align: center;

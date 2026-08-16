@@ -215,6 +215,11 @@ img {
     font-style: italic;
 }
 
+/* Publication metadata lines where only part of the text is italicized */
+.pub-meta {
+    color: #777;
+}
+
 .pub-buttons {
     margin-top: 8px;
 }

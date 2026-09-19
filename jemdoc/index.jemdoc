@@ -6,8 +6,10 @@
     <div class="nav-links">
         <a href="#home" class="nav-link">About Me</a>
         <a href="#publications" class="nav-link">Research</a>
+        <a href="#talks" class="nav-link">Talks</a>
         <a href="#teachings" class="nav-link">Teaching</a>
         <a href="#contact" class="nav-link">Contact</a>
+        <a href="documents/CV.pdf" class="nav-link nav-link-cv" target="_blank">CV</a>
     </div>
 </div>
 
@@ -18,6 +20,8 @@
             <p>I am a Ph.D. candidate at the Kellogg School of Management, Northwestern University. I am fortunate to be advised by Professor <a href="https://www.kellogg.northwestern.edu/faculty/directory/bassamboo_achal.aspx" class="text-link"><b>Achal Bassamboo</b></a> and Professor <a href="https://www.kellogg.northwestern.edu/academics-research/faculty/ibanez_maria/" class="text-link"><b>Maria Ibanez</b></a>.</p>
             <p>My research focuses on the <b>dynamics of online review systems and their impact on consumer behavior and platform operations</b>. I am particularly interested in how consumer experiences shape the helpfulness of online reviews and influence decision-making processes in digital marketplaces.</p>
             <p>Prior to my doctoral studies, I graduated from the Indian Institute of Technology Delhi with a B.Tech. in Mechanical Engineering.</p>
+            <p class="market-line"><b>I am on the 2026-27 academic job market.</b></p>
+            <p class="committee-line"><b>Dissertation Committee:</b> <a href="https://www.kellogg.northwestern.edu/faculty/directory/bassamboo_achal.aspx" class="committee-link" target="_blank">Achal Bassamboo</a>, <a href="https://www.kellogg.northwestern.edu/academics-research/faculty/ibanez_maria/" class="committee-link" target="_blank">Maria Ibanez</a>, <a href="https://www.kellogg.northwestern.edu/faculty/directory/bray_robert.aspx" class="committee-link" target="_blank">Robert Bray</a>, and <a href="https://sites.utexas.edu/yannis-stamos/" class="committee-link" target="_blank">Yannis Stamatopoulos</a></p>
         </div>
         <div class="hero-image">
             <img src="images/profile.jpeg" alt="Nalin Shani" class="profile-img" />
@@ -44,6 +48,34 @@
                 </div>
             </li>
         </ul>
+
+        <h3 class="pub-subtitle">Work in Progress</h3>
+        <ul class="pub-list">
+            <li><span class="pub-title-plain">Review Solicitation and Semantic Novelty: Evidence from Steam</span><br /><span class="pub-meta">with <i>Achal Bassamboo and Maria Ibanez</i></span></li>
+            <li><span class="pub-title-plain">Fast Promises, Fragile Orders: Delivery Commitments and Cancellations in E-Pharmacy</span><br /><span class="pub-meta">with <i>Achal Bassamboo and Nitish Jain</i></span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="talks-section" id="talks">
+    <div class="section-inner">
+        <h2 class="section-title">Upcoming Talks</h2>
+
+        <div class="talk-entry">
+            <p class="talk-head"><b>October 1, 2026: <a href="https://oid.wharton.upenn.edu/department-information/seminars-conferences/workshop-for-empirical-research-in-operations-management/" class="talk-link" target="_blank">Workshop on Empirical Research in Operations Management</a>, Wharton</b></p>
+            <p class="talk-line">Session 2: Feedback, 3:00-4:10 PM, Philadelphia, Pennsylvania</p>
+        </div>
+
+        <div class="talk-entry">
+            <p class="talk-head"><b>November 1-2, 2026: INFORMS Annual Meeting, San Francisco</b></p>
+            <p class="talk-line">November 1: Session SA29, 8:00-9:15 AM, Moscone South-207</p>
+            <p class="talk-line">November 2: Session ME37, 4:15-5:30 PM, Moscone South-215</p>
+        </div>
+
+        <div class="talk-entry">
+            <p class="talk-head"><b>November 22, 2026: DSI Annual Conference, San Francisco</b></p>
+            <p class="talk-line">Session: Incentives, Algorithms, and Behavior, 1:00-2:30 PM, Marriott Marquis Salon 3</p>
+        </div>
     </div>
 </div>
 
@@ -54,7 +86,7 @@
 
         <p class="course-heading"><b>MBA Courses</b></p>
         <ul class="course-list">
-            <li>OPNS 430 - <b>Operations Management</b><br /><span class="pub-authors">Spring 2024, Winter 2024, Winter 2025 (Head TA), Spring 2025, Winter 2026 (Head TA)</span></li>
+            <li>OPNS 430 - <b>Operations Management</b><br /><span class="pub-authors">Spring 2024, Winter 2024, Winter 2025 (<b class="head-ta">Head TA</b>), Spring 2025, Winter 2026 (<b class="head-ta">Head TA</b>)</span></li>
             <li>OPNS 440 - <b>Designing and Managing Business Processes</b><br /><span class="pub-authors">Winter 2025, Winter 2026</span></li>
             <li>OPNSX 454 - <b>Strategic Decisions in Operations</b><br /><span class="pub-authors">Spring 2025, Spring 2026</span></li>
             <li>OPNS 455 - <b>Supply Chain Management</b><br /><span class="pub-authors">Winter 2026</span></li>

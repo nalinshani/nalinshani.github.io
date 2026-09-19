@@ -74,6 +74,17 @@ img {
     border-bottom: none !important;
 }
 
+.nav-link-cv {
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 4px;
+    padding: 2px 10px;
+    transition: background 0.3s;
+}
+
+.nav-link-cv:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
 /* ============================================
    Hero Section
    ============================================ */
@@ -127,6 +138,20 @@ img {
     opacity: 0.7;
 }
 
+.market-line {
+    margin-top: 20px;
+}
+
+.committee-link {
+    color: #4A287E !important;
+    text-decoration: none;
+}
+
+.committee-link:hover {
+    border-bottom: none !important;
+    text-decoration: underline;
+}
+
 .hero-image {
     flex: 0 0 240px;
     padding-top: 10px;
@@ -141,20 +166,20 @@ img {
 
 .resume-btn {
     display: inline-block;
-    background: #e8756d;
+    background: #4A287E;
     color: white !important;
-    padding: 13px 28px;
-    border-radius: 6px;
+    padding: 6px 16px;
+    border-radius: 4px;
     text-decoration: none !important;
-    font-size: 0.95em;
+    font-size: 0.85em;
     font-weight: 600;
-    margin-top: 12px;
+    margin-top: 4px;
     transition: background 0.3s;
     border: none;
 }
 
 .resume-btn:hover {
-    background: #d4645c;
+    background: #3d2069;
     border-bottom: none !important;
 }
 
@@ -213,6 +238,11 @@ img {
 .pub-authors {
     color: #777;
     font-style: italic;
+}
+
+/* Work-in-progress titles are not links, so they stay in body colour. */
+.pub-title-plain {
+    color: #333;
 }
 
 /* Publication metadata lines where only part of the text is italicized */
@@ -301,6 +331,47 @@ img {
 }
 
 /* ============================================
+   Upcoming Talks Section
+   ============================================ */
+.talks-section {
+    background: #f7f6f9;
+    padding: 30px 0 25px;
+    scroll-margin-top: 50px;
+}
+
+.talk-entry {
+    margin-bottom: 18px;
+}
+
+.talk-entry:last-child {
+    margin-bottom: 0;
+}
+
+.talk-head {
+    color: #333;
+    font-size: 0.93em;
+    line-height: 1.6;
+    margin: 0 0 2px 0;
+}
+
+.talk-line {
+    color: #555;
+    font-size: 0.93em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.talk-link {
+    color: #333 !important;
+    text-decoration: underline;
+}
+
+.talk-link:hover {
+    border-bottom: none !important;
+    opacity: 0.7;
+}
+
+/* ============================================
    Teachings Section
    ============================================ */
 .teachings-section {
@@ -346,6 +417,13 @@ img {
 
 .course-list ul li {
     font-weight: normal;
+}
+
+/* Head TA sits inside the muted italic term line, so it resets shape and colour. */
+.head-ta {
+    font-style: normal;
+    font-weight: 700;
+    color: #444;
 }
 
 /* ============================================

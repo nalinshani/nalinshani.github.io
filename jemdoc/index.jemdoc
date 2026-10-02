@@ -57,6 +57,10 @@
                     <details class="abstract-toggle">
                         <summary class="abstract-btn">Abstract</summary>
                         <div class="abstract-box">A shorter delivery promise brings in more orders, but it may also bring in customers who are less willing to wait. We study this tradeoff at a quick-commerce e-pharmacy in India, where the platform offers a 30-minute or 60-minute delivery promise to a customer, as per its location relative to the fulfilling center. Using order-level data from 32 stores, we identify how delivery promises and delays affect customers' purchase and cancellation outcomes using a spatial regression discontinuity design. Our findings suggest a strong reference effect in customer responses to the promised delivery duration. The counterfactual analysis shows that failure to recognize this reference effect can lead to considerable financial losses.
+                            <div class="pub-figure">
+                                <img src="images/delivery_promise_map.png" alt="Delivery promise map" class="pub-fig-img" />
+                                <p class="pub-fig-caption">Orders around a store, by distance east-west and north-south from the store (km). Orange points received a 30-minute promise and blue points a 60-minute promise. The solid line marks the 30-minute eligibility boundary, and the cross marks the store.</p>
+                            </div>
                         </div>
                     </details>
                 </div>

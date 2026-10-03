@@ -51,7 +51,6 @@
 
         <h3 class="pub-subtitle">Work in Progress</h3>
         <ul class="pub-list">
-            <li><span class="pub-title-plain">Review Solicitation and Semantic Novelty: Evidence from Steam</span><br /><span class="pub-meta">with <i>Achal Bassamboo and Maria Ibanez</i></span></li>
             <li><span class="pub-title-plain">Fast Yes, Furious Maybe: Promises and Delays in Quick-Commerce E-Pharmacy</span><br /><span class="pub-meta">with <i>Achal Bassamboo and Nitish Jain</i></span>
                 <div class="pub-buttons">
                     <details class="abstract-toggle">
@@ -65,6 +64,7 @@
                     </details>
                 </div>
             </li>
+            <li><span class="pub-title-plain">Review Solicitation and Semantic Novelty: Evidence from Steam</span><br /><span class="pub-meta">with <i>Achal Bassamboo and Maria Ibanez</i></span></li>
         </ul>
     </div>
 </div>
